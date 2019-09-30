@@ -1,17 +1,285 @@
-* {
-  margin:0px;
-  padding:0px;
+iv.box1 {
+background:#803C5D;
+text-align:center;
+color:black;
+width:700px;
+height:60px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:hidden;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.box1:hover {
+background:#0AD7B0;
+text-align:center;
+color:black;
+width:700;
+height:255px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:auto;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+div.box2 {
+background:#0AD7B0;
+text-align:center;
+color:black;
+width:700px;
+height:60px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:hidden;
+}
+
+.box2:hover {
+background:#0AD7B0;
+text-align:center;
+color:black;
+width:700px;
+height:255px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:auto;
+}
+
+div.box3 {
+background:#0AD7B0;
+text-align:center;
+color:black;
+width:700px;
+height:60px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:hidden;
+}
+
+.box3:hover {
+background:#0AD7B0;
+text-align:center;
+color:black;
+width:700px;
+height:255px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:auto;
+}
+
+div.boxfloat {
+background:#0AD7B0;
+color:black;
+border:1px solid black;
+position:fixed;
+text-align:center;
+border-radius:5px;
+left:0px;
+bottom:0px;
+width:165px;
+height:200px;
+overflow:auto;
+}
+  
+ 
+body {
+background: url("https://i.imgur.com/4dUmFt4.jpg") fixed;
+background-repeat: no-repeat;
+background-size: cover;
+color: #000;
+}
+ 
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+color: #000;
+}
+ 
+h1, h3 , .sidebar h3 {
+font-family: Arial !important;
+text-align: left;
+color: #000;
+border-bottom: 1px solid #000;
+}
+ 
+/* Buttons */
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+background: #0AD7B0;
+color: #000;
+border: 1px solid #000;
+text-shadow: none;
+font-weight: bold;
+font-size: 14px;
+border-radius: 5px;
+}
+  
+  
+/* Links */
+  
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+color: #000000;
+}
+  
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+border-bottom: 1px solid #000000;
+color: #000000;
+}
+  
+/* Topbar */
+  
+.topbar {
+background: rgb(128, 60, 93);
+border: 1px solid #000;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+ 
+.badge {
+background: rgb(128, 60, 93);
+border: 1px solid #000;
+}
+  
+/* Navigational Bar */
+  
+.main {
+background: rgba(128, 60, 93, 0.46);
+border: 1px solid #000;
+box-shadow: none;
+}
+  
+.navbar {
+background: #0AD7B0;
+border-bottom: 1px solid #000;
+color: #000;
+}
+  
+.navbar-default .navbar-nav > li > a {
+color: #000;
+}
+  
+.navbar-default .navbar-nav li a:hover {
+color: #000;
+background: #3AFFDA;
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+} 
+  
+  
+  
+/* Sidebar */
+  
+.sidebar {
+background: rgba(128, 60, 93, 0.36);
+border: 0px solid #000;
+border-bottom: 1px solid #000;
+border-left: 1px solid #000;
+color: #000;
+}
+  
+.col-md-3 .panel {
+background: rgb(128, 60, 93);
+border: 1px solid #000;
+box-shadow: none;    
+}
+  
+.progress-bar {
+background: #3AFFDA;
+}
+  
+.progress {
+background: #8EDAFF;
+border: 1px solid #000;
+}
+  
+  
+/* Chat */
+  
+.chat_light, .chat_dark {
+background: rgb(128, 60, 93);
+font-size: 11px;
+color: #000;
+}
+ 
+.chatContainer {
+border: 1px solid #000;
+}
+  
+.userstolen {
+background: none;
+}
+ 
+.alert-danger {
+color: #000;
+background: rgb(128, 60, 93);
+border: 1px solid #000;
+}
+ 
+.alert-success {
+color: #000;
+background: rgb(128, 60, 93);
+border: 1px solid #000;
+}
+ 
+.breadcrumb {
+background:  #0AD7B0;
+font-size: 13px;
+border: 1px solid #000;
+}
+  
+.breadcrumb>.active {
+color: #000;
+}
+  
+h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Carter One";
+color: #000;
+}
+  
+.col-md-9 {
+background: none;
+border: 0px solid #000;
+}
+  
+/* Tables */
+  
+#lion_image {
+border-radius: 25px;
+overflow: hidden;
+border: 1px solid #000;
+}
+  
+.table, .item {
+border: 1px solid #000;
+background: #0AD7B0;
+border-collapse: separate;
+}
+ 
+.table .right, .table .right_odd {
+background: none;
+border: 0px solid #000;
+}
+ 
+div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
+border: 0px solid #000;
+background: #5DE7B4;
+color: #000;
+}
+ 
+.cave-grid, div .left, .mound-grid {
+border: 1px solid #000;
+background: #5DE7B4;
+color: #000;
+}
+ 
+.table .left {
+border: 1px solid #000;
+background: #5DE7B4;
+color: #000;
+}
+ 
+.inner-table .right {
+background: #3AFFDA;
+border: 1px solid #000;
+border-left: none;
 }
